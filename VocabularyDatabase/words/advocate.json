@@ -1,0 +1,50 @@
+{
+  "word": "advocate",
+  "phonetic": "/ˈædvəkeɪt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "ad-",
+        "type": "prefix",
+        "meaning_en": "to, toward",
+        "meaning_zh": "向、朝"
+      },
+      {
+        "form": "voc",
+        "type": "root",
+        "meaning_en": "call, voice",
+        "meaning_zh": "呼喊、声音"
+      },
+      {
+        "form": "-ate",
+        "type": "suffix",
+        "meaning_en": "one who does; to do",
+        "meaning_zh": "表人或动词后缀"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 advocare：ad-（向）+ vocare（呼喊），字面义为“召来相助”，故引申为“拥护、提倡”及“拥护者”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to publicly support or recommend a particular cause or policy",
+      "meaning_zh": "提倡，拥护",
+      "examples": [
+        "Many scientists advocate stricter controls on carbon emissions."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "noun",
+      "meaning_en": "a person who publicly supports or recommends a particular cause or policy",
+      "meaning_zh": "拥护者，提倡者",
+      "examples": [
+        "She has long been an advocate of equal pay for women."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

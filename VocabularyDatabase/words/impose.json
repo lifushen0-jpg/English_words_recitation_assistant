@@ -1,0 +1,50 @@
+{
+  "word": "impose",
+  "phonetic": "/ɪmˈpəʊz/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "im-",
+        "type": "prefix",
+        "meaning_en": "on, upon (assimilated form of in-)",
+        "meaning_zh": "在……上"
+      },
+      {
+        "form": "pos",
+        "type": "root",
+        "meaning_en": "put, place (from ponere)",
+        "meaning_zh": "放置"
+      },
+      {
+        "form": "-e",
+        "type": "suffix",
+        "meaning_en": "verb-forming element",
+        "meaning_zh": "动词词尾"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 imponere：in-（在……上）+ ponere（放置），字面义为“放在上面”，故引申为“强加、征收”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to officially force a rule, tax, or punishment to be obeyed",
+      "meaning_zh": "强制实行，征收（税等）",
+      "examples": [
+        "The government imposed heavy taxes on imported cars."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "verb",
+      "meaning_en": "to force someone to accept something, especially an opinion or burden",
+      "meaning_zh": "把……强加于",
+      "examples": [
+        "I don't want to impose my views on anyone."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

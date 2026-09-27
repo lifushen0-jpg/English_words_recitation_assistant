@@ -1,0 +1,44 @@
+{
+  "word": "exempt",
+  "phonetic": "/ɪɡˈzempt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "ex-",
+        "type": "prefix",
+        "meaning_en": "out of, from",
+        "meaning_zh": "出、从……中"
+      },
+      {
+        "form": "empt",
+        "type": "root",
+        "meaning_en": "take, buy (from emere)",
+        "meaning_zh": "取、买"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 exemptus，为 eximere（ex- 出 + emere 取）的过去分词，字面义为“被取出的”，故引申为“被免除的、豁免的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "free from an obligation or duty that others must fulfil",
+      "meaning_zh": "被免除的，豁免的",
+      "examples": [
+        "Students with medical certificates are exempt from physical education classes."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "verb",
+      "meaning_en": "to officially free someone from an obligation or duty",
+      "meaning_zh": "免除，豁免",
+      "examples": [
+        "The new law exempts small businesses from paying the tax."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,35 @@
+{
+  "word": "fluctuate",
+  "phonetic": "/ˈflʌktʃueɪt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "fluct",
+        "type": "root",
+        "meaning_en": "flow, wave (from fluere)",
+        "meaning_zh": "流动、波浪"
+      },
+      {
+        "form": "-ate",
+        "type": "suffix",
+        "meaning_en": "to do, to make",
+        "meaning_zh": "动词后缀"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 fluctuare：fluctus（波浪，来自 fluere 流动）+ -ate，字面义为“像波浪一样起伏”，故引申为“波动、涨落”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to rise and fall irregularly in number or amount",
+      "meaning_zh": "波动，起伏不定",
+      "examples": [
+        "Oil prices have fluctuated sharply over the past few months."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

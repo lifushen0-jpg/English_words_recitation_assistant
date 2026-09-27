@@ -1,0 +1,36 @@
+{
+  "word": "compel",
+  "phonetic": "/kəmˈpel/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "com-",
+        "type": "prefix",
+        "meaning_en": "together, intensive",
+        "meaning_zh": "共同，加强"
+      },
+      {
+        "form": "pel-",
+        "type": "root",
+        "meaning_en": "drive, push",
+        "meaning_zh": "驱动，推"
+      }
+    ],
+    "analysis": [
+      "com- 表示“共同、加强”，pel- 来自拉丁语 pellere（推动）。",
+      "字面义为“一起推动”，引申为“强迫、迫使”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to force or oblige someone to do something",
+      "meaning_zh": "强迫；迫使",
+      "examples": [
+        "The law compels companies to reduce pollution."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

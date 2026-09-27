@@ -1,0 +1,50 @@
+{
+  "word": "deficit",
+  "phonetic": "/ˈdefɪsɪt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "de-",
+        "type": "prefix",
+        "meaning_en": "away, lacking",
+        "meaning_zh": "离开、缺少"
+      },
+      {
+        "form": "fic",
+        "type": "root",
+        "meaning_en": "do, make (from facere)",
+        "meaning_zh": "做、造"
+      },
+      {
+        "form": "-it",
+        "type": "suffix",
+        "meaning_en": "noun-forming element",
+        "meaning_zh": "名词后缀"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 deficit，为 deficere（de- 缺 + facere 做）的第三人称单数形式，字面义为“缺少、不足”，故引申为“赤字、亏损、不足额”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "noun",
+      "meaning_en": "the amount by which money spent is greater than money received",
+      "meaning_zh": "赤字，亏损",
+      "examples": [
+        "The government is trying to reduce the budget deficit."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "noun",
+      "meaning_en": "a lack or shortage of something needed",
+      "meaning_zh": "不足，缺乏",
+      "examples": [
+        "The team suffered from a serious deficit of experienced players."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

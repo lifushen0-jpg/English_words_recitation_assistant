@@ -1,0 +1,42 @@
+{
+  "word": "abundant",
+  "phonetic": "/əˈbʌndənt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "ab-",
+        "type": "prefix",
+        "meaning_en": "away, from",
+        "meaning_zh": "离开，来自"
+      },
+      {
+        "form": "und-",
+        "type": "root",
+        "meaning_en": "wave, flow",
+        "meaning_zh": "波浪，流动"
+      },
+      {
+        "form": "-ant",
+        "type": "suffix",
+        "meaning_en": "adjective-forming suffix",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "ab- 表示“离开、来自”，und- 来自拉丁语 unda（波浪），-ant 为形容词后缀。",
+      "字面义为“像波浪一样涌来”，引申为“丰富的、充裕的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "existing or available in large quantities; plentiful",
+      "meaning_zh": "丰富的；充裕的",
+      "examples": [
+        "The region is abundant in natural resources."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

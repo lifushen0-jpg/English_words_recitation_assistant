@@ -1,0 +1,36 @@
+{
+  "word": "feasible",
+  "phonetic": "/ˈfiːzəbl/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "feas-",
+        "type": "root",
+        "meaning_en": "do, make",
+        "meaning_zh": "做，制作"
+      },
+      {
+        "form": "-ible",
+        "type": "suffix",
+        "meaning_en": "capable of being",
+        "meaning_zh": "能够……的"
+      }
+    ],
+    "analysis": [
+      "feas- 来自拉丁语 facere（做），-ible 表示“能够……的”。",
+      "字面义为“能够做到的”，引申为“可行的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "possible to do easily or conveniently; practicable",
+      "meaning_zh": "可行的；行得通的",
+      "examples": [
+        "It is not feasible to finish the project in one week."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "word": "deteriorate",
+  "phonetic": "/dɪˈtɪəriəreɪt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "deterior",
+        "type": "root",
+        "meaning_en": "worse",
+        "meaning_zh": "更坏"
+      },
+      {
+        "form": "-ate",
+        "type": "suffix",
+        "meaning_en": "verb-forming suffix",
+        "meaning_zh": "动词后缀"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 deterior（更坏的），加动词后缀 -ate。",
+      "整体表示“使变坏、恶化”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to become progressively worse",
+      "meaning_zh": "恶化；变坏",
+      "examples": [
+        "Her health deteriorated rapidly after the accident."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,41 @@
+{
+  "word": "conspicuous",
+  "phonetic": "/kənˈspɪkjuəs/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "con-",
+        "type": "prefix",
+        "meaning_en": "thoroughly, together",
+        "meaning_zh": "完全、共同"
+      },
+      {
+        "form": "spic",
+        "type": "root",
+        "meaning_en": "look, see (from specere)",
+        "meaning_zh": "看、视"
+      },
+      {
+        "form": "-uous",
+        "type": "suffix",
+        "meaning_en": "having the quality of",
+        "meaning_zh": "具……性质的"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 conspicuus：con-（完全）+ specere（看），字面义为“完全看得见的”，故引申为“显眼的、引人注目的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "clearly visible; attracting attention",
+      "meaning_zh": "显眼的，引人注目的",
+      "examples": [
+        "Her bright red coat made her conspicuous in the crowd."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

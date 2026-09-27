@@ -1,0 +1,41 @@
+{
+  "word": "ambiguous",
+  "phonetic": "/æmˈbɪɡjuəs/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "ambi-",
+        "type": "prefix",
+        "meaning_en": "both, around",
+        "meaning_zh": "两者、周围"
+      },
+      {
+        "form": "ag",
+        "type": "root",
+        "meaning_en": "drive, act (from agere)",
+        "meaning_zh": "驱动、行动"
+      },
+      {
+        "form": "-ous",
+        "type": "suffix",
+        "meaning_en": "full of, having the quality of",
+        "meaning_zh": "充满……的，具……性质的"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 ambiguus：ambi-（两边）+ agere（驱动），字面义为“被推向两边的”，故引申为“模棱两可的、含糊不清的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "open to more than one interpretation; not having one obvious meaning",
+      "meaning_zh": "模棱两可的，含糊不清的",
+      "examples": [
+        "His reply was deliberately ambiguous, so no one knew his real intention."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

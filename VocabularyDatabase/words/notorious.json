@@ -1,0 +1,36 @@
+{
+  "word": "notorious",
+  "phonetic": "/nəʊˈtɔːriəs/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "not-",
+        "type": "root",
+        "meaning_en": "known",
+        "meaning_zh": "知道"
+      },
+      {
+        "form": "-orious",
+        "type": "suffix",
+        "meaning_en": "adjective-forming suffix",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "not- 来自拉丁语 notus（已知的），-orious 为形容词后缀。",
+      "字面义为“众所周知的”，现多用于贬义，表示“臭名昭著的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "famous or well known, typically for some bad quality or deed",
+      "meaning_zh": "臭名昭著的；声名狼藉的",
+      "examples": [
+        "The city is notorious for its traffic jams."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

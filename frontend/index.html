@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="基于词根词缀和例句的英语单词学习工具" />
+    <title>WordRoot · 单词学习</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <main class="shell">
+      <header class="topbar">
+        <button class="brand" id="home-button" type="button" aria-label="返回首页">
+          <span class="brand-mark">W</span>
+          <span><strong>WordRoot</strong><small>从构词开始理解</small></span>
+        </button>
+        <div class="status-pill"><span class="status-dot"></span><span id="server-status">正在连接</span></div>
+        <button class="shutdown-button" id="shutdown-button" type="button" title="关闭本机服务器">关闭程序</button>
+      </header>
+
+      <section id="home-view" class="view">
+        <div class="hero">
+          <p class="eyebrow">YOUR DAILY VOCABULARY</p>
+          <h1>不只记住一个词，<br /><em>看懂它如何生长。</em></h1>
+          <p class="hero-copy">从真实语境猜测词义，再通过词根、词缀和释义建立持久记忆。</p>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="action-card primary-card">
+            <div class="card-label">今日新词</div>
+            <div class="metric"><strong id="learning-remaining">—</strong><span>待完成</span></div>
+            <p id="learning-description">正在读取学习计划…</p>
+            <button class="button button-primary" id="learn-button" type="button">开始学习 <span>→</span></button>
+          </article>
+          <article class="action-card">
+            <div class="card-label">到期复习</div>
+            <div class="metric"><strong id="review-due">—</strong><span>个单词</span></div>
+            <p>包括所有已经到期和逾期的卡片。</p>
+            <button class="button button-secondary" id="review-button" type="button">开始复习 <span>→</span></button>
+          </article>
+          <article class="action-card quiet-card">
+            <div class="card-label">词库</div>
+            <div class="metric compact"><strong id="total-words">—</strong><span>词</span></div>
+            <p id="api-status">正在检查 DeepSeek 配置…</p>
+            <button class="connection-button" id="check-api-button" type="button">测试 API 连接</button>
+            <button class="button button-ghost" id="generate-button" type="button">生成10个 CET-6 新词</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="study-view" class="view hidden" aria-live="polite">
+        <div class="study-header">
+          <button class="back-button" id="back-button" type="button">← 返回</button>
+          <div class="progress-wrap">
+            <div class="progress-meta"><span id="mode-label">学习</span><span id="progress-label">0 / 0</span></div>
+            <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+          </div>
+        </div>
+
+        <article id="flashcard" class="flashcard">
+          <div id="question-panel">
+            <p class="prompt">根据全部例句，写下这个词在不同语境中的意思</p>
+            <h2 id="card-word">word</h2>
+            <div id="examples-list" class="examples-list"></div>
+            <label class="answer-label" for="answer-input">你的答案</label>
+            <textarea id="answer-input" rows="4" placeholder="用中文或英文写下你想到的全部释义…"></textarea>
+            <button class="button button-primary reveal-button" id="reveal-button" type="button">查看答案</button>
+          </div>
+
+          <div id="answer-panel" class="hidden">
+            <div class="answer-heading">
+              <div><p class="eyebrow">ANSWER</p><h2 id="answer-word">word</h2></div>
+              <span id="phonetic" class="phonetic"></span>
+            </div>
+            <section class="detail-section morphology-section">
+              <h3>词根词缀</h3>
+              <div id="morphology-parts" class="morphology-parts"></div>
+              <div id="morphology-analysis" class="analysis-steps"></div>
+            </section>
+            <section class="detail-section">
+              <div class="section-title-row"><h3>全部释义</h3><span>请逐项核对</span></div>
+              <div id="meanings-list" class="meanings-list"></div>
+            </section>
+            <div class="answer-actions">
+              <button class="button button-secondary" id="submit-result-button" type="button">记录判断并继续</button>
+              <button class="text-button" id="know-well-button" type="button">我已熟练掌握</button>
+            </div>
+          </div>
+        </article>
+
+        <div id="complete-panel" class="complete-panel hidden">
+          <div class="complete-icon">✓</div>
+          <p class="eyebrow">SESSION COMPLETE</p>
+          <h2 id="complete-title">本次学习完成</h2>
+          <p>每一次回想都在加固你的记忆路径。</p>
+          <button class="button button-primary" id="complete-home-button" type="button">返回首页</button>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast hidden" role="status"></div>
+    <div id="shutdown-view" class="shutdown-view hidden">
+      <div class="shutdown-card">
+        <div class="shutdown-icon">✓</div>
+        <p class="eyebrow">WORDROOT CLOSED</p>
+        <h2>服务器已关闭</h2>
+        <p>学习数据已经保存。现在可以安全关闭此标签页。</p>
+        <button class="button button-secondary" id="close-tab-button" type="button">关闭页面</button>
+      </div>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

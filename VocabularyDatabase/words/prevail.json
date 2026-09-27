@@ -1,0 +1,45 @@
+{
+  "word": "prevail",
+  "phonetic": "/prɪˈveɪl/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "pre-",
+        "type": "prefix",
+        "meaning_en": "before, in front",
+        "meaning_zh": "在前，优先"
+      },
+      {
+        "form": "vail-",
+        "type": "root",
+        "meaning_en": "strong, powerful",
+        "meaning_zh": "强壮，有力"
+      }
+    ],
+    "analysis": [
+      "pre- 表示“在前、优先”，vail- 来自拉丁语 valere（强壮、有力）。",
+      "字面义为“力量占先”，引申为“盛行、获胜”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to prove more powerful than opposing forces and succeed",
+      "meaning_zh": "占优势；获胜",
+      "examples": [
+        "Justice will prevail in the end."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "verb",
+      "meaning_en": "to be widespread or generally accepted at a particular time",
+      "meaning_zh": "盛行；流行",
+      "examples": [
+        "A sense of optimism prevailed among the team."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "word": "hinder",
+  "phonetic": "/ˈhɪndə(r)/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "hind-",
+        "type": "root",
+        "meaning_en": "back, behind",
+        "meaning_zh": "后面"
+      },
+      {
+        "form": "-er",
+        "type": "suffix",
+        "meaning_en": "verb-forming suffix",
+        "meaning_zh": "动词后缀"
+      }
+    ],
+    "analysis": [
+      "源自古英语 hindrian，与 hinder（后面的）相关，本义为“使落后”。",
+      "引申为“阻碍、妨碍”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to create difficulties for someone or something, resulting in delay or obstruction",
+      "meaning_zh": "阻碍；妨碍",
+      "examples": [
+        "Heavy snow hindered the rescue efforts."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

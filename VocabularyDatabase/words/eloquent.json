@@ -1,0 +1,42 @@
+{
+  "word": "eloquent",
+  "phonetic": "/ˈeləkwənt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "e-",
+        "type": "prefix",
+        "meaning_en": "out",
+        "meaning_zh": "向外"
+      },
+      {
+        "form": "loqu-",
+        "type": "root",
+        "meaning_en": "speak",
+        "meaning_zh": "说话"
+      },
+      {
+        "form": "-ent",
+        "type": "suffix",
+        "meaning_en": "adjective-forming suffix",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "e- 表示“向外”，loqu- 来自拉丁语 loqui（说话），-ent 为形容词后缀。",
+      "字面义为“能说出来的”，引申为“雄辩的、有说服力的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "fluent or persuasive in speaking or writing",
+      "meaning_zh": "雄辩的；有说服力的",
+      "examples": [
+        "She gave an eloquent speech at the ceremony."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

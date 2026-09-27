@@ -1,0 +1,41 @@
+{
+  "word": "indispensable",
+  "phonetic": "/ˌɪndɪˈspensəbl/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "in-",
+        "type": "prefix",
+        "meaning_en": "not",
+        "meaning_zh": "不、非"
+      },
+      {
+        "form": "dispens",
+        "type": "root",
+        "meaning_en": "weigh out, give out (from dispensare)",
+        "meaning_zh": "分配、分发"
+      },
+      {
+        "form": "-able",
+        "type": "suffix",
+        "meaning_en": "capable of being",
+        "meaning_zh": "可……的"
+      }
+    ],
+    "analysis": [
+      "源自中世纪拉丁语 indispensabilis：in-（不）+ dispensare（分配、免除）+ -able，字面义为“不可免除的”，故引申为“必不可少的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "absolutely necessary; too important to be without",
+      "meaning_zh": "必不可少的，不可或缺的",
+      "examples": [
+        "A good dictionary is indispensable to language learners."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

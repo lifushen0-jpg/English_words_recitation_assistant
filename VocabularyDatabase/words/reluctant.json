@@ -1,0 +1,42 @@
+{
+  "word": "reluctant",
+  "phonetic": "/rɪˈlʌktənt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "re-",
+        "type": "prefix",
+        "meaning_en": "against, back",
+        "meaning_zh": "相反，回"
+      },
+      {
+        "form": "luct-",
+        "type": "root",
+        "meaning_en": "struggle",
+        "meaning_zh": "挣扎"
+      },
+      {
+        "form": "-ant",
+        "type": "suffix",
+        "meaning_en": "adjective-forming suffix",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "re- 表示“相反”，luct- 来自拉丁语 luctari（挣扎），-ant 为形容词后缀。",
+      "字面义为“反着挣扎的”，引申为“不情愿的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "unwilling and hesitant; disinclined",
+      "meaning_zh": "不情愿的；勉强的",
+      "examples": [
+        "She was reluctant to leave her hometown."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

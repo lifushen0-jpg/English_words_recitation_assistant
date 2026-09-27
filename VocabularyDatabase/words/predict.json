@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "word": "predict",
+  "phonetic": "/prɪˈdɪkt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "pre-",
+        "type": "prefix",
+        "meaning_en": "before",
+        "meaning_zh": "在……之前"
+      },
+      {
+        "form": "dict",
+        "type": "root",
+        "meaning_en": "say",
+        "meaning_zh": "说"
+      }
+    ],
+    "analysis": [
+      "predict = pre- + dict",
+      "pre- = before",
+      "dict = say",
+      "say beforehand → predict",
+      "predict → 预测"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "verb",
+      "meaning_en": "to say or estimate what you think will happen in the future",
+      "meaning_zh": "预测；预言；预先判断",
+      "examples": [
+        "Scientists predict that temperatures will continue to rise."
+      ]
+    }
+  ]
+}

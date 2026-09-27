@@ -1,0 +1,41 @@
+{
+  "word": "subsequent",
+  "phonetic": "/ˈsʌbsɪkwənt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "sub-",
+        "type": "prefix",
+        "meaning_en": "after, under",
+        "meaning_zh": "在后、在下"
+      },
+      {
+        "form": "sequ",
+        "type": "root",
+        "meaning_en": "follow (from sequi)",
+        "meaning_zh": "跟随"
+      },
+      {
+        "form": "-ent",
+        "type": "suffix",
+        "meaning_en": "adjective-forming element",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 subsequens：sub-（在后）+ sequi（跟随）+ -ent，字面义为“随后跟随的”，故引申为“随后的、后来的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "coming after something else in time; following",
+      "meaning_zh": "随后的，后来的",
+      "examples": [
+        "Subsequent events proved that his decision had been wise."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

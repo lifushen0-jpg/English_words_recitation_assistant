@@ -1,0 +1,9 @@
+.env
+.vscode/
+__pycache__/
+*.pyc
+*.tmp
+WordRoot-share.zip
+VocabularyDatabase/LearningPlan.json
+VocabularyDatabase/ReviewPlan.json
+VocabularyDatabase/learning_state/*.json

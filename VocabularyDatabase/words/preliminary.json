@@ -1,0 +1,50 @@
+{
+  "word": "preliminary",
+  "phonetic": "/prɪˈlɪmɪnəri/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "pre-",
+        "type": "prefix",
+        "meaning_en": "before",
+        "meaning_zh": "在前"
+      },
+      {
+        "form": "limin",
+        "type": "root",
+        "meaning_en": "threshold (from limen)",
+        "meaning_zh": "门槛、界限"
+      },
+      {
+        "form": "-ary",
+        "type": "suffix",
+        "meaning_en": "relating to",
+        "meaning_zh": "与……有关的"
+      }
+    ],
+    "analysis": [
+      "源自拉丁语 praeliminaris：prae-（在前）+ limen（门槛）+ -ary，字面义为“在门槛之前的”，故引申为“初步的、预备的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "coming before a more important action or event; introductory",
+      "meaning_zh": "初步的，预备的",
+      "examples": [
+        "The two sides held preliminary talks before the formal negotiation."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "noun",
+      "meaning_en": "an action or event that precedes and prepares for something more important",
+      "meaning_zh": "预备步骤，前期活动",
+      "examples": [
+        "The meeting was only a preliminary to the final agreement."
+      ]
+    }
+  ],
+  "schema_version": 1
+}

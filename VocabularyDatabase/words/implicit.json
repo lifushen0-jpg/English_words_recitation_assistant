@@ -1,0 +1,51 @@
+{
+  "word": "implicit",
+  "phonetic": "/ɪmˈplɪsɪt/",
+  "morphology": {
+    "parts": [
+      {
+        "form": "im-",
+        "type": "prefix",
+        "meaning_en": "in, into",
+        "meaning_zh": "在内，进入"
+      },
+      {
+        "form": "plic-",
+        "type": "root",
+        "meaning_en": "fold",
+        "meaning_zh": "折叠"
+      },
+      {
+        "form": "-it",
+        "type": "suffix",
+        "meaning_en": "adjective-forming suffix",
+        "meaning_zh": "形容词后缀"
+      }
+    ],
+    "analysis": [
+      "im- 表示“在内”，plic- 来自拉丁语 plicare（折叠），-it 为形容词后缀。",
+      "字面义为“折叠在内的”，引申为“含蓄的、不言明的”。"
+    ]
+  },
+  "meanings": [
+    {
+      "id": "meaning_1",
+      "part_of_speech": "adjective",
+      "meaning_en": "suggested or understood without being directly expressed",
+      "meaning_zh": "含蓄的；不言明的",
+      "examples": [
+        "There was an implicit threat in his words."
+      ]
+    },
+    {
+      "id": "meaning_2",
+      "part_of_speech": "adjective",
+      "meaning_en": "present as an essential part or quality of something",
+      "meaning_zh": "内含的；固有的",
+      "examples": [
+        "Trust is implicit in any close relationship."
+      ]
+    }
+  ],
+  "schema_version": 1
+}
